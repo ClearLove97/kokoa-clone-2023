@@ -1,0 +1,14 @@
+@import "reset.css";
+/* 자동적으로 만들어지는 웹페이지 디자인을 모두 초기화 할때 import 한다. */
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+
+/* screens */
+@import "screens/login.css";
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/*  style.css 에서는 모든 스크린에 적용될 수 있는 스타일을 써놓는 방법도있다. */
