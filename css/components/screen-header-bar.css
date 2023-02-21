@@ -1,20 +1,23 @@
 .screen-header {
   position: fixed;
+  top: 26px;
+  left: 0;
+  right: 0;
+
   display: flex;
   justify-content: space-between;
-  top: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  padding-top: 20px;
-}
-.screen-header__title {
-  padding-left: 15px;
-  font-size: 30px;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+
+  background-color: white;
 }
 
-.screen-header__icons {
-  margin: 5px;
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
 }
+
 .screen-header__icons span {
-  padding-right: 25px;
+  margin-left: 25px;
 }

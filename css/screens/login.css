@@ -10,8 +10,8 @@
   font-size: 25px;
 }
 .welcome-header__text {
-  opacity: 0.7;
   width: 60%;
+  opacity: 0.7;
 }
 
 #login-form {
@@ -24,7 +24,7 @@
   border: none;
   padding: 15px 0px;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 #login-form input:not([type="submit"]) {
@@ -43,13 +43,13 @@
 #login-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
+  padding: 20px 0px;
   border-radius: 5px;
 }
 
 #login-form a {
-  font-style: normal;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.6);
   text-align: center;
   text-decoration: none;
+  color: inherit;
+  font-size: 13px;
 }
